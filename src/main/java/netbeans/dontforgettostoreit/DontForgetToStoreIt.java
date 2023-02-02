@@ -17,20 +17,20 @@ public class DontForgetToStoreIt {
         String cheese, color; 
         
         System.out.println("Give me pi to the fifth decimal: ");
-        Double.parseDouble(inputReader.nextLine());
+        pi = Double.parseDouble(inputReader.nextLine());
         
         //we used Double.parseDouble but meaningOfLifeAndEverything is an INT
         //so we'll have to use Integer.parseInt
         
         System.out.println("What is the meaning of life, the universe, and everything?");
         System.out.println("give a number");
-        Integer.parseInt(inputReader.nextLine());
+        meaningOfLifeAndEverything = Integer.parseInt(inputReader.nextLine());
         
         System.out.println("What is your favorite cheese?");
-        inputReader.nextLine();
+        cheese = inputReader.nextLine();
         
         System.out.println("Do you like the color red or blue more?");
-        inputReader.nextLine();
+        color = inputReader.nextLine();
         
         System.out.println("Ooh, " + color + " " + cheese + " sounds delicious!");
         System.out.println("The circumference of life is " +( 2 * pi * meaningOfLifeAndEverything));
